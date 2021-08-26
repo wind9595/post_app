@@ -1,0 +1,9 @@
+.post {
+  &__comments {
+    &-item {
+      &:not(:last-child) {
+        border-bottom: 1px solid #000000;
+      }
+    }
+  }
+}

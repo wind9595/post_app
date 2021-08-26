@@ -1,0 +1,10 @@
+export const FETCH_POSTS = 'FETCH_POSTS';
+export const FETCHING_POSTS = 'FETCHING_POSTS';
+export const FETCH_POSTS_ERROR = 'FETCH_POSTS_ERROR';
+export const RESET_POSTS = 'RESET_POSTS';
+export const FETCH_POST = 'FETCH_POST';
+export const FETCH_POST_ERROR = 'FETCH_POST_ERROR';
+export const RESET_POST = 'RESET_POST';
+export const FETCH_USER = 'FETCH_USER';
+export const FETCH_USER_ERROR = 'FETCH_USER_ERROR';
+export const RESET_USER = 'RESET_USER';
