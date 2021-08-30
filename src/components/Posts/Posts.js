@@ -17,10 +17,8 @@ const Posts = () => {
 
 
     useEffect(() => {
-        getAllPosts(currentPage)
-            .then(() => {
+        getAllPosts(currentPage);
 
-            });
         return () => {
             resetPosts();
         };
